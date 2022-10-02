@@ -6,6 +6,6 @@ In baseball, the defensive shift has become more and more popular over recent ye
 <img src="https://github.com/BrendanJenkins/Baseball-Spray-Chart/blob/main/images/Baseballpositioning-normal.png" align="left" title="Normal Defensive Alignment">
 
 #### Overshift Defensive Placement:
-<img src="https://github.com/BrendanJenkins/Baseball-Spray-Chart/blob/main/images/Baseballpositioning-overshift.png" align="left" title="Normal Defensive Alignment">
+<img src="https://github.com/BrendanJenkins/Baseball-Spray-Chart/blob/main/images/Baseballpositioning-shift.png" align="left" title="Normal Defensive Alignment">
 
 Teams have many different ways that they develop their shift, but essentially you want information about the batter and pitcher to create this shift. Some problems can arrise when only looking at the specific batter or pitcher in this because when a rookie player comes up to the MLB, they have very limited data available, baseball's version of a cold start problem! In this repo, I explore a technique to combat this problem.  
