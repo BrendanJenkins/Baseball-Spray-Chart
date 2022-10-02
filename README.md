@@ -11,7 +11,7 @@ Teams have many different ways that they develop their shift, but essentially yo
 I used pitch level data from 2015 to 2022 for this project. I utilized the [pybaseball](https://github.com/jldbc/pybaseball) library in order to harvest the data. The code for the data harvesting is located in `data_harvesting.ipynb`.
 
 ## Techniques
-In `pitcher_batter_clustering.ipynb`, I utilized two KMeans clustering models to group similar pitchers together. For one model I clusters with respect to the pitchers' average pitch characteristics. The motivation behind this is to group pitchers that through with similar velocities and breaks together. The other cluster is clustered with respected to the pitchers' pitch distribution. The idea behind this is that if a pitcher relies on his fastball more, then the batter can cheat to the fastball and pull it easier.
+In `pitcher_batter_cluster.ipynb`, I utilized two KMeans clustering models to group similar pitchers together. For one model I clusters with respect to the pitchers' average pitch characteristics. The motivation behind this is to group pitchers that through with similar velocities and breaks together. The other cluster is clustered with respected to the pitchers' pitch distribution. The idea behind this is that if a pitcher relies on his fastball more, then the batter can cheat to the fastball and pull it easier.
 
 ## Next Steps
 A potential next step is to conduct more analysis about what is the optimial number of clusters in each KMeans model.
